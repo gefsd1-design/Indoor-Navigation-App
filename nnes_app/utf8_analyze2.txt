@@ -1,0 +1,18 @@
+﻿Analyzing nnes_app...                                           
+
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\app_theme.dart:36:9 - deprecated_member_use
+warning - Unused import: 'dart:math' - lib\core\utils\path_engine.dart:1:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\home\presentation\pages\home_screen.dart:6:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\features\home\presentation\pages\home_screen.dart:20:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\home\presentation\pages\home_screen.dart:21:26 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\home\presentation\pages\home_screen.dart:47:55 - deprecated_member_use
+   info - 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\features\localization\services\localization_service.dart:37:7 - deprecated_member_use
+   info - 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\features\localization\services\localization_service.dart:60:51 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\navigation\presentation\pages\navigation_screen.dart:14:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\features\navigation\presentation\pages\navigation_screen.dart:17:3 - library_private_types_in_public_api
+   info - The private field _flutterTts could be 'final' - lib\features\navigation\presentation\pages\navigation_screen.dart:32:14 - prefer_final_fields
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\pages\navigation_screen.dart:214:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\office_map_painter.dart:137:36 - deprecated_member_use
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\main.dart:2:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\main.dart:11:9 - use_super_parameters
+

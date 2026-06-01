@@ -1,0 +1,20 @@
+[
+  {"id": "gym", "name": "Gym Room", "digiPin": "G-101", "lat": 13.717965, "lng": 79.585786, "neighborIds": ["gis"]},
+  {"id": "gis", "name": "GIS Lab", "digiPin": "G-102", "lat": 13.717965, "lng": 79.586786, "neighborIds": ["gym", "cv"]},
+  {"id": "cv", "name": "CV Lab", "digiPin": "G-103", "lat": 13.717965, "lng": 79.587586, "neighborIds": ["gis", "pd"]},
+  {"id": "pd", "name": "PD Room", "digiPin": "G-104", "lat": 13.717965, "lng": 79.588386, "neighborIds": ["cv", "admin"]},
+  {"id": "admin", "name": "Administrative Room", "digiPin": "A-101", "lat": 13.717965, "lng": 79.589186, "neighborIds": ["pd", "geointel"]},
+  {"id": "geointel", "name": "GEO Intel Lab", "digiPin": "G-105", "lat": 13.717965, "lng": 79.589986, "neighborIds": ["admin", "discussion"]},
+  {"id": "discussion", "name": "Discussion Area", "digiPin": "D-101", "lat": 13.717965, "lng": 79.590586, "neighborIds": ["geointel", "intersection"]},
+  {"id": "intersection", "name": "Main Hallway X", "digiPin": "X-000", "lat": 13.717965, "lng": 79.590786, "neighborIds": ["discussion", "gnss", "lidar"]},
+  {"id": "tih_board", "name": "TIH Board", "digiPin": "T-101", "lat": 13.721165, "lng": 79.590786, "neighborIds": ["cross_150"]},
+  {"id": "cross_150", "name": "Hallway North", "digiPin": "X-N", "lat": 13.720465, "lng": 79.590786, "neighborIds": ["tih_board", "cafeteria", "ceo", "meeting"]},
+  {"id": "cafeteria", "name": "Cafeteria", "digiPin": "C-101", "lat": 13.720465, "lng": 79.589786, "neighborIds": ["cross_150"]},
+  {"id": "ceo", "name": "CEO Room", "digiPin": "E-101", "lat": 13.720465, "lng": 79.591786, "neighborIds": ["cross_150"]},
+  {"id": "meeting", "name": "Meeting Room", "digiPin": "M-101", "lat": 13.719665, "lng": 79.590786, "neighborIds": ["cross_150", "gnss"]},
+  {"id": "gnss", "name": "GNSS Lab", "digiPin": "G-106", "lat": 13.718865, "lng": 79.590786, "neighborIds": ["meeting", "intersection"]},
+  {"id": "lidar", "name": "LiDAR Lab", "digiPin": "L-101", "lat": 13.717465, "lng": 79.590786, "neighborIds": ["intersection", "cross_550"]},
+  {"id": "cross_550", "name": "Hallway South", "digiPin": "X-S", "lat": 13.716465, "lng": 79.590786, "neighborIds": ["lidar", "washrooms", "comp_lab"]},
+  {"id": "washrooms", "name": "Washrooms", "digiPin": "W-101", "lat": 13.716465, "lng": 79.589786, "neighborIds": ["cross_550"]},
+  {"id": "comp_lab", "name": "Computational Lab", "digiPin": "C-102", "lat": 13.716465, "lng": 79.591786, "neighborIds": ["cross_550"]}
+]

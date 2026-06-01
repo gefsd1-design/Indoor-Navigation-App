@@ -1,0 +1,7 @@
+﻿Running Gradle task 'assembleRelease'...                        
+Checking the license for package NDK (Side by side) 28.2.13676358 in C:\Users\IITTP\AppData\Local\Android\Sdk\licenses
+License for package NDK (Side by side) 28.2.13676358 accepted.
+Preparing "Install NDK (Side by side) 28.2.13676358 v.28.2.13676358".
+Warning: Failed to download package!
+"Install NDK (Side by side) 28.2.13676358 v.28.2.13676358" failed.
+Running Gradle task 'assembleRelease'...                          254.7s

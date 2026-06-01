@@ -1,0 +1,56 @@
+name: nnes_app
+description: A new Flutter project using Clean Architecture.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  geolocator: ^13.0.1
+  flutter_tts: ^4.2.5
+  flutter_compass: ^0.8.0
+  pedometer: ^4.0.1
+  sensors_plus: ^6.1.1
+  flutter_blue_plus: ^1.32.8
+  wifi_scan: ^0.4.0
+  mobile_scanner: ^4.0.1
+  google_mlkit_text_recognition: ^0.13.0
+  image_picker: ^1.0.4
+  tflite_flutter: ^0.12.1
+  image: ^4.2.0
+  opencv_dart: ^2.2.1+4
+  dartcv4: ^2.2.1+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/
+    - assets/office_dataset/TIH Photos/
+    - assets/models/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Office logo.png"
+
+hooks:
+  user_defines:
+    dartcv4:
+      include_modules:
+        - core
+        - imgproc
+        - imgcodecs
+        - features2d

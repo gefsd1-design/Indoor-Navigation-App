@@ -1,0 +1,18 @@
+﻿Analyzing nnes_app...                                           
+
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\app_theme.dart:36:9 - deprecated_member_use
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\theme\app_theme.dart:47:18 - argument_type_not_assignable
+  error - Target of URI doesn't exist: '../../navigation/presentation/pages/navigation_screen.dart' - lib\features\home\presentation\pages\home_screen.dart:3:8 - uri_does_not_exist
+   info - Parameter 'key' could be a super parameter - lib\features\home\presentation\pages\home_screen.dart:6:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\features\home\presentation\pages\home_screen.dart:20:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\home\presentation\pages\home_screen.dart:21:26 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\home\presentation\pages\home_screen.dart:47:55 - deprecated_member_use
+  error - The name 'NavigationScreen' isn't a class - lib\features\home\presentation\pages\home_screen.dart:80:79 - creation_with_non_type
+   info - Parameter 'key' could be a super parameter - lib\features\navigation\presentation\pages\navigation_screen.dart:5:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\pages\navigation_screen.dart:25:73 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\pages\navigation_screen.dart:55:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\pages\navigation_screen.dart:78:43 - deprecated_member_use
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\main.dart:2:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\main.dart:11:9 - use_super_parameters
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
