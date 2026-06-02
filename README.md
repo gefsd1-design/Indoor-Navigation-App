@@ -136,10 +136,5 @@ Further improvements can focus on:
 - and CI automation for analyze/test/build.
 
 ## Contact
+- Email: theerthamrajasri@gmail.com
 
-For project collaboration or support, add your contact details here:
-
-- Name:
-- Email:
-- LinkedIn:
-- GitHub:
